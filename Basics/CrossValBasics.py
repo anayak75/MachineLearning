@@ -8,10 +8,7 @@ import seaborn as sns
 matplotlib.rc('xtick', labelsize=20)
 matplotlib.rc('ytick', labelsize=20)
 
-
-
 df = pd.read_csv('/Users/alok/Documents/data/winequality-red.csv', sep=';')
-
 
 quality_mapping = {
     3: 0,
@@ -69,9 +66,3 @@ plt.xticks(range(0, 26, 5))
 plt.xlabel("max_depth", size=20)
 plt.ylabel("accuracy", size=20)
 plt.show()
-
-
-
-
-
-
