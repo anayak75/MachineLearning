@@ -71,6 +71,7 @@ if __name__ == "__main__":
 
     print(metrics.accuracy_score(l1, l2))
 
+
     print(accuracy(l1, l2))
 
     print(accuracy_v2(l1, l2))
